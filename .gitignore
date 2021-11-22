@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/sublimetext,macos,linux,windows,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=sublimetext,macos,linux,windows,react
+# Created by https://www.toptal.com/developers/gitignore/api/sublimetext,linux,macos,windows,visualstudiocode,react,nextjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=sublimetext,linux,macos,windows,visualstudiocode,react,nextjs
 
 ### Linux ###
 *~
@@ -45,6 +45,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### NextJS ###
+# Next build dir
+.next/
 
 ### react ###
 .DS_*
@@ -95,6 +99,25 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -121,4 +144,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/sublimetext,macos,linux,windows,react
+# End of https://www.toptal.com/developers/gitignore/api/sublimetext,linux,macos,windows,visualstudiocode,react,nextjs
